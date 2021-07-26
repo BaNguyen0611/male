@@ -1,0 +1,61 @@
+.header{
+    padding: 14px 0;
+    background-color: $green-brg;
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: $white;
+        }
+    }
+    &__logo{
+        img{
+            height: 61px;
+        }
+    }
+    &__nav{
+        &__top{
+            display: flex;
+            flex-wrap: wrap;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    padding: 10px 20px;
+                    font-size: 15px;
+                }
+            }
+            form{
+                margin-left: 4px;
+                display: flex;
+                input{
+                    height: 43px;
+                    width: 276px;
+                    padding-left: 15px;
+                    color: $green;
+                }
+                button{
+                    width: 50px;
+                    margin-left: -2px;
+                    border: none;
+                    background-color: $orig-bgr;
+                }
+            }
+        }
+        &__bottom{
+            ul{
+                display: flex;
+                li{
+                    padding: 17px;
+                    font-size: 18px;
+                    margin-right: 22px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

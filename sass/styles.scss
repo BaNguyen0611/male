@@ -1,0 +1,20 @@
+// base
+@import "./base/reset";
+@import "./base/colors";
+@import "./base/variables";
+@import "./base/helper";
+@import "./base/fonts";
+@import"./base/mixin";
+@import"./base/typography";
+
+// componemts
+@import "./componemts/banner";
+@import "./componemts/service";
+@import "./componemts/viewed";
+@import "./componemts/education";
+@import "./componemts/about";
+@import "./componemts/sub";
+//layout
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
