@@ -1,0 +1,114 @@
+.sub{
+    &__container{
+        padding-top: 68px;
+        padding-bottom: 60px;
+        span{
+            color: red;
+        }
+    }
+    &__title{
+        text-align: center;
+        font-size: 50px;
+        color: $green;
+    }
+    &__subtitle{
+        margin-top: 28px;
+        font-size: 20px;
+        text-align: center;
+        color: $green;
+    }
+    background-color: #94d5da;
+    &__content{
+        display: flex;
+        justify-content: center;
+    }
+    &__content{
+        margin-top: 33px;
+        label{
+            color: $green;
+        }
+    }
+    &__left{
+        margin-right: 60px;
+        input, select{
+            border: none;
+            height: 40px;
+            width: 350px;
+            margin-bottom: 17px;
+        }
+        select{
+            font-size: 21px;
+            color: gray;
+            padding-left: 13px;
+        }
+        label{
+            margin-bottom: -3px;
+            display: block;
+        }
+    }
+    &__right{
+        &__date{
+            input{
+                height: 40px;
+                width: 115px;
+                border: none;
+                color: gray;
+                padding-left: 15px;
+                
+            }
+            label{
+                margin-bottom: -3px;
+                display: block; 
+            }
+        }
+        &__checkbox{
+            margin-top: 20px;
+            label{
+                &:first-child{
+                   display: block;
+                    margin-bottom: -8px; 
+                }   
+            }
+            input{
+                height: 24px;
+                width: 24px;
+                margin-left: 0px;
+                border: none;
+            }
+        }
+        &__recaptcha{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            background: white;
+            padding: 8px;
+            width: 300px;
+            margin-top: 14px;
+            label{
+                color: black;
+            }
+            input{
+                height: 24px;
+                width: 24px;
+                margin-left: 0px;
+                border: none;
+            }
+            &__img{
+                img{
+                    height: 57px;
+                }
+            }
+        }
+        &__button{
+            margin-top: 30px;
+            button{
+                border: none;
+                color: white;
+                background: $green;
+                padding: 13px 29px;
+                font-size: 14px;
+            }
+        }
+    }
+}

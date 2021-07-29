@@ -1,9 +1,12 @@
 .services{
     padding-top:88px;
     &__container{
-        @include grid(4,16px,48px);
+        @include grid(4,33px,48px);
     }
     &__item{
+        color: white;
+        background-color: #005a62;
+        padding-bottom: 48px;
     }
     &__img{
         width: 100%;

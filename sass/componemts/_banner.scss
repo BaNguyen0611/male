@@ -1,12 +1,13 @@
 .banner{
     position: relative;
+    margin-top: 123px;
     img{
     width: 100%;
     height: auto;
     }
     &__container{
         position: absolute;
-        top: 9%;
+        top: 10%;
         left: calc((100% - 1180px)/2);
         color:$white;
     }

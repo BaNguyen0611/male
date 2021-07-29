@@ -1,0 +1,26 @@
+.about{
+    &__container{
+        margin-bottom: 75px;
+    }
+    &__title{
+        margin-top: 49px;
+        font-size: 45px;
+        color: $green;
+    }
+    &__text{
+        margin-top: 19px;
+        line-height: 1.3;
+        font-size: 17px;
+        color: $green;
+        span{
+            text-decoration: underline;
+        }
+      }
+    &__find{
+        display: inline-block;
+        margin-top: 25px;
+        padding: 12px 12px;
+        background-color: $orig-bgr;
+        color:white;
+    }
+}
