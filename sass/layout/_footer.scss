@@ -1,0 +1,84 @@
+.footer{
+    background-color: #e6e6e6;
+    &__logo{
+        height: 127px;
+    }
+    &__top{
+        a{
+            color: $green;
+        }
+        &__one{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 50px;
+            border-bottom: 1px solid $green;
+        }
+        &__two{
+            text-align: center;
+            padding-top: 16px;
+            font-size: 19px;
+            color: $green;
+            padding-bottom: 51px;
+            border-bottom: 1px solid $green;
+            &__text{
+                margin-bottom: 15px;
+                span{
+                    text-decoration: underline;
+                }
+            }
+        }
+        &__three{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            padding-top: 27px;
+            img{
+                margin-right: 21px;
+                height: 40px;
+            }
+        }
+        &__meunu{
+            width: 240px;
+            li{
+                margin-bottom: 26px;
+            }
+            a{
+                font-size: 21px;
+                text-decoration: underline;
+
+            }
+        }
+        &__social{
+                a{
+                    display: block;
+                    margin: 10px 1px;
+                    border-radius: 50%;
+                    width: 36px;
+                    height: 36px;
+                }
+                &--fb{
+                    background:#93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/facebook.svg) no-repeat 50% 50% ;
+                    background-size: 15px;
+                }
+                &--tw{
+                    background:#93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/twitter.svg) no-repeat 50% 50%;
+                    background-size: 15px;
+                }
+                &--yt{
+                    background:#93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/youtube.svg) no-repeat 50% 50%;
+                    background-size: 15px;
+                }
+                &--ig{
+                    background:#93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/instagram.svg) no-repeat 50% 50%;
+                    background-size: 15px;
+                }
+                &--edin{
+                    background:#93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/linkedin.svg) no-repeat 50% 50%;
+                    background-size: 15px;  
+                }
+            }
+    
+    }
+}

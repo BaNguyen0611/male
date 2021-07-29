@@ -112,7 +112,7 @@ a {
 
 .banner {
   position: relative;
-  margin-top: 123px;
+  margin-top: 122px;
 }
 .banner img {
   width: 100%;
@@ -595,6 +595,85 @@ a {
 
 main {
   z-index: 0;
+}
+
+.footer {
+  background-color: #e6e6e6;
+}
+.footer__logo {
+  height: 127px;
+}
+.footer__top a {
+  color: #0e5a61;
+}
+.footer__top__one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  border-bottom: 1px solid #0e5a61;
+}
+.footer__top__two {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 19px;
+  color: #0e5a61;
+  padding-bottom: 51px;
+  border-bottom: 1px solid #0e5a61;
+}
+.footer__top__two__text {
+  margin-bottom: 15px;
+}
+.footer__top__two__text span {
+  text-decoration: underline;
+}
+.footer__top__three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-top: 27px;
+}
+.footer__top__three img {
+  margin-right: 21px;
+  height: 40px;
+}
+.footer__top__meunu {
+  width: 240px;
+}
+.footer__top__meunu li {
+  margin-bottom: 26px;
+}
+.footer__top__meunu a {
+  font-size: 21px;
+  text-decoration: underline;
+}
+.footer__top__social a {
+  display: block;
+  margin: 10px 1px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+.footer__top__social--fb {
+  background: #93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/facebook.svg) no-repeat 50% 50%;
+  background-size: 15px;
+}
+.footer__top__social--tw {
+  background: #93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/twitter.svg) no-repeat 50% 50%;
+  background-size: 15px;
+}
+.footer__top__social--yt {
+  background: #93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/youtube.svg) no-repeat 50% 50%;
+  background-size: 15px;
+}
+.footer__top__social--ig {
+  background: #93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/instagram.svg) no-repeat 50% 50%;
+  background-size: 15px;
+}
+.footer__top__social--edin {
+  background: #93D5DA url(https://www.healthymale.org.au/themes/andrology/images/andrology/icons/linkedin.svg) no-repeat 50% 50%;
+  background-size: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
